@@ -1,0 +1,332 @@
+
+/***** BASE STYLES *****/
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f0f0e8;
+}
+
+h1 {
+  font-family: 'Droid Serif', serif;
+  font-size: 71px;
+  font-weight: lighter;
+  text-transform: lowercase;
+  letter-spacing: 5pt;
+  padding-top: 45px;
+  color: #265668;
+}
+
+h2 {
+  font-family: 'Droid Serif', serif;
+  font-size: 35px;
+  font-weight: lighter;
+  text-align: center;
+  color: #f0f0e8;
+}
+
+h3 {
+  font-family: 'Raleway 700', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #dbdbd1;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 33px;
+  font-weight: lighter;
+  text-align: left;
+  color: #dbdbd1;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  font-weight: lighter;
+  color: #7f7f7f;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  line-height: 40px;
+  color: #7f7f7f;
+  margin: 0px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 352px;
+  float: left;
+}
+
+.third-width-middle {
+  width: 430px;
+  float: left;
+  padding: 0px 10px 0px 10px;
+}
+
+
+/***** HEADER *****/
+
+header {
+  height: 820px;
+  background: url('../img/main-logo-image.png');
+  background-size: cover;
+}
+
+header a img {
+  padding-top: 66px;
+}
+nav {
+  float: right;
+  padding: 66px 40px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a {
+  font-family: 'Droid Serif', serif;
+  font-size: 18px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f0f0e8;
+  padding-left: 40px;
+}
+
+.jobtitle ul li{
+  display: inline-block;
+  font-family: 'Droid Serif', serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #f0f0e8;
+  margin-top: 560px;
+  margin-left: 240px;
+  padding-left: 50px;
+}
+
+/***** ABOUT *****/
+#about {
+  height: 400px;
+}
+
+
+/***** SKILLS *****/
+#skills {
+  height: 250px;
+  background-color: #0a1b1f;
+  padding: 40px 0px 40px 80px;
+}
+
+#skills .third-width {
+  text-align: center;
+}
+
+#skills ul {
+  list-style: none;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin-right: 2em;
+  text-align: center;
+  color: #dbdbd1;
+}
+
+#skills a {
+  text-decoration: none;
+  color: #dbdbd1;
+}
+
+#skills p {
+  font-size: 20px;
+  line-height: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: #dbdbd1;
+}
+
+#skills img {
+
+  padding: 0px 0px 10px 0px;
+}
+
+/***** WORK *****/
+
+#work {
+  height: 710px;
+}
+
+#work p {
+  text-decoration: none;
+  line-height: 75px;
+}
+
+#contact h4 {
+  text-align: left;
+  display: inline-block;
+  padding-right: 20px;
+  float: right;
+  margin: auto;
+}
+#work .third-width img {
+  float: left;
+  padding: 5px 5px 0px 5px;
+}
+
+#work .third-width-middle img {
+  padding: 5px 5px 0px 5px;
+  float: left;
+}
+
+#work .third-width-last img {
+  float: left;
+  padding: 5px 5px 0px 5px;
+}
+
+#work a {
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+#work .full-width p{
+  padding-top: 0px;
+  padding-right: 45px;
+  text-align: right;
+}
+
+
+
+#work .full-width p img{
+  padding-left: 3px;
+}
+
+#work .full-width img {
+  padding-top: 10px;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+  height: 150px;
+  background-color: #0a1b1f;
+}
+
+#contact .full-width {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#contact .half-width {
+  padding-top: 20px;
+  text-align: left;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #90cfd7;
+  font-size: 33px;
+  line-height: 30px;
+  display: inline-block;
+  margin: auto;
+  padding-left: 5px;
+  float; left;
+}
+
+#contact h4 {
+  text-align: left;
+  display: inline-block;
+  padding-right: 20px;
+  float: right;
+  margin: auto;
+}
+
+#contact h2 {
+  margin: 0;
+  text-align: center;
+}
+#contact ul {
+  list-style: none;
+  display: block;
+  margin: auto;
+  float; left;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-top: 0px;
+  display: inline-block;
+}
+
+/***** FOOTER *****/
+
+#copyright .full-width {
+  display: block;
+  padding-left: 75px;
+  padding-top: 10px;
+}
+
+#copyright .third-width {
+  display: block;
+  margin: auto;
+  float: left;
+}
+
+
+#copyright h6 {
+  display: block;
+  margin: auto;
+  padding-top: 8px;
+}
+
+#copyright img {
+  display: block;
+  margin: auto;
+}
+
+#copyright a {
+  font-size: 14px;
+  text-decoration: none;
+  text-align: right;
+  color: #7f7f7f;
+  display: block;
+  margin: auto;
+  float; left;
+  padding-top: 8px;
+}
